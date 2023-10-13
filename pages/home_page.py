@@ -19,4 +19,4 @@ class MxHomePage(BaseObject):
         """
         self.open_main_page()
         self.driver.find_element(*locator).click()
-        time.sleep(10)
+        time.sleep(30)

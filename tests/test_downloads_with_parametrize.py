@@ -10,6 +10,6 @@ ids = ['win_32_bit', 'win_64_bit', 'server_32_bit', 'server_64_bit', 'platinics_
 
 
 @pytest.mark.parametrize('file', files, ids=ids)
-def test_download(home_page, file):
+def test_downloads_parametrize(home_page, file):
     home_page.main_page_download(file)
 
