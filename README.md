@@ -5,7 +5,7 @@
 * clone [this](https://github.com/alexc0re/zultys) repo to your local drive
 
   ```
-  git clone git@github.com/alexc0re/zultys.git
+  git clone https://github.com/alexc0re/zultys.git
   ```
 * install dependencies
   ```
